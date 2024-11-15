@@ -13,8 +13,8 @@ interface rankOptions {
 
 interface profileOptions {
     customUsername?: string;('UserID', {
-    customTag?: string;('rank',  {
-    customSubtitle?: string;
+    customTag?: string; ('!rank',  {
+    customSubtitle?: string; (`!red', {
     customBadges?: string[];
     customBackground?: string;
     overwriteBadges?: boolean;
