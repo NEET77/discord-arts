@@ -12,8 +12,8 @@ interface rankOptions {
 }
 
 interface profileOptions {
-    customUsername?: string;
-    customTag?: string;
+    customUsername?: string;('UserID', {
+    customTag?: string;('rank',  {
     customSubtitle?: string;
     customBadges?: string[];
     customBackground?: string;
